@@ -4,7 +4,7 @@ function changedColor(color){
     squares[i].style.backgroundColor = color
     }
 }
- //Review this Function
+
 function pickColor(){
    var random =  Math.floor(Math.random() * colors.length)
    return colors [random];
